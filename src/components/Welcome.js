@@ -7,10 +7,8 @@ const Welcome = () => {
           <article className="content">
             <div className="gallery">
             {
-                    welcomeImgData.map((link) => 
-                    <li><a className={`icon ${link.class}`} href={`href`}><span>{link.text}</span></a></li>
-                    <img src={'src'} alt={'alt'}/>
-                    <img className="hidesm" src="https://landonhotel.com/images/hotel/intro_wedding.jpg" alt="Intro Gallery Dining Sample Pictures"/>
+                    welcomeImgData.map((image) => 
+                    <img className={image.class} src={image.src} alt={image.alt}/>
                     )
             }
             </div>
