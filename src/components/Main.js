@@ -1,19 +1,14 @@
 import React from 'react';
-import Hotel from './Hotel'
-import Welcome from './Welcome';
-
+import HotelInfo from './HotelInfo'
+import Welcome from './Welcome.js'
 
 const Main = () => {
-    return (
-        
-        <main id="wrapper">
-        
-        <Welcome/>
-        <Hotel/>
-
-        </main>
-    );
+  return (
+    <main id="wrapper">
+      <Welcome />
+      <HotelInfo />
+    </main>
+  );
 }
-
 
 export default Main;
